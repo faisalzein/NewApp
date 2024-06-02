@@ -1,0 +1,76 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Tujuan">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/tujuan"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tujuan"
+        android:layout_width="364dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/destination"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Tujuan1"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="Tujuan A"
+        app:layout_constraintBottom_toTopOf="@+id/Tujuan2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Tujuan2"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="Tujuan B"
+        app:layout_constraintBottom_toTopOf="@+id/Tujuan3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Tujuan3"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="Tujuan C"
+        app:layout_constraintBottom_toTopOf="@+id/Tujuan4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Tujuan4"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="48dp"
+        android:text="Tujuan D"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tujuan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

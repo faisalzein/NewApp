@@ -1,0 +1,74 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.Isibensin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/this_bensin"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_isibensin"
+        android:layout_width="364dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/Isibensinbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/EmpatL"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="4 Liter"
+        app:layout_constraintBottom_toTopOf="@+id/TigaL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/TigaL"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="3 Liter"
+        app:layout_constraintBottom_toTopOf="@+id/DuaL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/DuaL"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="2 Liter"
+        app:layout_constraintBottom_toTopOf="@+id/SatuL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SatuL"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="76dp"
+        android:text="1 Liter"
+        app:layout_constraintBottom_toTopOf="@+id/btn_isibensin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

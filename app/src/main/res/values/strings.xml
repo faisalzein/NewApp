@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_profile">Ini activity Profile</string>
+    <string name="this_bensin">Pilih jumlah bensinmu saat ini</string>
+    <string name="Isibensinbutton">NEXT</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="to_profile">Ke Halaman Profile Activity</string>
+    <string name="show_dialog">Tampilkan sebuah dialog</string>
+    <string name="hello_home_fragment">Masukkan jenis kendaraan</string>
+    <string name="to_category">NEXT</string>
+    <string name="question_coach">Siapa pelatih tersukses Machester United?</string>
+    <string name="sir_alex_ferguson">Sir Alex Ferguson</string>
+    <string name="jose_mourinho">Jose Mourinho</string>
+    <string name="louis_van_gaal">Louis Van Gaal</string>
+    <string name="david_moyes">David Moyes</string>
+    <string name="choose">Pilih</string>
+    <string name="close">Tutup</string>
+    <string name="car">Mobil</string>
+    <string name="motorcycle">Motor</string>
+    <string name="tujuan">Masukkan tujuan utama</string>
+    <string name="destination">GO TO THE DESTINATION</string>
+</resources>
